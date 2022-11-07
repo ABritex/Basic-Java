@@ -6,6 +6,7 @@ public class Basic_Login {
 
         String emails[] = { "abeleda100@gmail.com", "Nics1123@gmail.com" };
         String passwords[] = { "123456789", "abcdefghi" };
+        int Weight1 = 40, Weight2 = 60;
 
         System.out.print("Enter your Email    : ");
         String email = s.next();
@@ -24,7 +25,7 @@ public class Basic_Login {
             int Mgrade = s.nextInt();
             System.out.println("Enter your finalterm grade : ");
             int Fgrade = s.nextInt();
-            int Frating = (Mgrade + Fgrade) / 2;
+            int Frating = (Weight1 * Mgrade + Weight2 * Fgrade) / (Weight1 + Weight2);
             System.out.println("Your final rating is       : " + Frating);
             System.out.println("---------------------------------------");
             if (Frating > 100)
