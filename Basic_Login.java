@@ -1,10 +1,10 @@
 import java.util.*;
 
-public class ABELEDA_LAB_ACT4 {
+public class Basic_Login {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
-        String emails[] = { "abeleda48@gmail.com", "Nicholas1@gmail.com" };
+        String emails[] = { "abeleda100@gmail.com", "Nics1123@gmail.com" };
         String passwords[] = { "123456789", "abcdefghi" };
 
         System.out.print("Enter your Email    : ");
